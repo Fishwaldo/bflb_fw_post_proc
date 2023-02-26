@@ -4,6 +4,7 @@
 # [GCC 9.4.0]
 # Embedded file name: libs/bflb_fw_post_proc.py
 import re, os, sys, time, shutil
+from bflb_mcu_tool import libs
 try:
     import bflb_path
 except ImportError:
